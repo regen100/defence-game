@@ -1,0 +1,52 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "main": "./script/main.js",
+  "assets": {
+    "main": {
+      "type": "script",
+      "path": "script/main.js",
+      "global": true
+    },
+    "Controller": {
+      "type": "script",
+      "path": "script/Controller.js",
+      "global": true
+    },
+    "EntryScene": {
+      "type": "script",
+      "path": "script/EntryScene.js",
+      "global": true
+    },
+    "StudentScene": {
+      "type": "script",
+      "path": "script/StudentScene.js",
+      "global": true
+    },
+    "ProfessorScene": {
+      "type": "script",
+      "path": "script/ProfessorScene.js",
+      "global": true
+    }
+  },
+  "moduleMainScripts": {
+    "@akashic-extension/coe": "node_modules/@akashic-extension/coe/lib/index.js"
+  },
+  "environment": {
+    "sandbox-runtime": "3"
+  },
+  "globalScripts": [
+    "node_modules/@akashic-extension/coe/lib/Controller.js",
+    "node_modules/@akashic-extension/coe/lib/SceneWatcher.js",
+    "node_modules/@akashic-extension/coe/lib/View.js",
+    "node_modules/@akashic-extension/coe/lib/global.js",
+    "node_modules/@akashic-extension/coe/lib/impl/BaseController.js",
+    "node_modules/@akashic-extension/coe/lib/impl/COEController.js",
+    "node_modules/@akashic-extension/coe/lib/impl/COEMessageEventHandler.js",
+    "node_modules/@akashic-extension/coe/lib/impl/Scene.js",
+    "node_modules/@akashic-extension/coe/lib/impl/index.js",
+    "node_modules/@akashic-extension/coe/lib/index.js",
+    "node_modules/@akashic-extension/coe/lib/parameters.js"
+  ]
+}
